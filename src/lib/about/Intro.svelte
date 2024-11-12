@@ -29,9 +29,19 @@
 
 <style>
 	.intro {
-		margin-bottom: 2rem;
+		margin-bottom: 2.5rem;
+		padding: 1.5rem;
+		background: #1a1a1a;
+		border-radius: 8px;
+		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+		color: #cccccc;
+	}
+	.intro p {
+		margin-top: 1rem;
 		font-size: 1.1rem;
 		line-height: 1.6;
-		color: #cccccc;
+	}
+	strong {
+		color: #1db954;
 	}
 </style>

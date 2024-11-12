@@ -17,7 +17,6 @@
 		font-family: 'Inter', sans-serif;
 		background-color: #000000;
 		color: #ffffff;
-		line-height: 1.6;
 		scroll-behavior: smooth;
 	}
 

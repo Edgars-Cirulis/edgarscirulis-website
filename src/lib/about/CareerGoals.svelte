@@ -16,20 +16,22 @@
 
 <style>
 	.career-goals {
-		margin-bottom: 2rem;
+		margin-bottom: 2.5rem;
+		padding: 1.5rem;
+		background: #1a1a1a;
+		border-radius: 8px;
+		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
 	}
-
 	.career-goals h3 {
-		font-size: 1.75rem;
-		color: #ffffff;
-		margin-bottom: 0.75rem;
-		border-left: 4px solid #1db954;
-		padding-left: 0.5rem;
+		font-size: 1.8rem;
+		color: #1db954;
+		margin-bottom: 1rem;
+		font-weight: 600;
 	}
-
 	.career-goals p {
 		color: #cccccc;
-		margin-top: 1rem;
+		margin-top: 0.75rem;
 		line-height: 1.6;
+		font-size: 1rem;
 	}
 </style>

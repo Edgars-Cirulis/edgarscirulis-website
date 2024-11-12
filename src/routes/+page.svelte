@@ -1,7 +1,6 @@
 <script>
 	import SEO from '$lib/main/SEO.svelte';
 	import IntroSection from '$lib/home/Intro.svelte';
-	import Supporters from '$lib/home/Supporters.svelte';
 </script>
 
 <SEO
@@ -11,4 +10,3 @@
 	url="https://edgarscirulis.lv/"
 />
 <IntroSection />
-<Supporters />

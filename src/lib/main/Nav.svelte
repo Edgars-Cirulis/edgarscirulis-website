@@ -8,6 +8,7 @@
 <nav>
 	<a href="/" class={$currentPath === '/' ? 'active' : ''}>Home</a>
 	<a href="/about" class={$currentPath === '/about' ? 'active' : ''}>About</a>
+	<a href="/support" class={$currentPath === '/support' ? 'active' : ''}>Support</a>
 </nav>
 
 <style>

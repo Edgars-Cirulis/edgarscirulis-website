@@ -10,25 +10,35 @@
 
 <style>
 	.personal-highlights {
-		margin-bottom: 2rem;
+		margin-bottom: 2.5rem;
+		padding: 1.5rem;
+		background: #1a1a1a;
+		border-radius: 8px;
+		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
 	}
-
 	.personal-highlights h3 {
-		font-size: 1.75rem;
-		color: #ffffff;
-		margin-bottom: 0.75rem;
-		border-left: 4px solid #1db954;
-		padding-left: 0.5rem;
+		font-size: 1.8rem;
+		color: #1db954;
+		margin-bottom: 1rem;
+		font-weight: 600;
 	}
-
 	ul {
 		list-style-type: none;
 		padding: 0;
 		margin: 0;
 	}
-
 	li {
 		margin-bottom: 1rem;
 		color: #cccccc;
+		padding-left: 1.5rem;
+		font-size: 1rem;
+		position: relative;
+	}
+	li::before {
+		content: '•';
+		color: #1db954;
+		position: absolute;
+		left: 0;
+		top: 0;
 	}
 </style>
