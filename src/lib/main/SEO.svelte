@@ -1,8 +1,9 @@
 <script>
-	export let title;
+	export let title = '';
 	export let description = '';
 	export let keywords = '';
 	export let url = '';
+	export let image = ''; // Optional image for social previews
 </script>
 
 <svelte:head>
@@ -14,7 +15,11 @@
 	<meta property="og:title" content={title} />
 	<meta property="og:description" content={description} />
 	<meta property="og:url" content={url} />
+	{#if image}
+		<meta property="og:image" content={image} />
+	{/if}
 
+	<!-- JSON-LD Schema for Structured Data (Person) -->
 	<script type="application/ld+json">
 		{
 			"@context": "https://schema.org",
