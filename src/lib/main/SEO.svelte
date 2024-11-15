@@ -14,4 +14,16 @@
 	<meta property="og:title" content={title} />
 	<meta property="og:description" content={description} />
 	<meta property="og:url" content={url} />
+
+	<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "Person",
+			"name": "Edgars Cirulis",
+			"jobTitle": "Web Developer & Software Engineer",
+			"description": "{description}",
+			"url": "{url}",
+			"sameAs": ["https://github.com/edgars-cirulis", "https://www.facebook.com/edgarsscirulis/"]
+		}
+	</script>
 </svelte:head>

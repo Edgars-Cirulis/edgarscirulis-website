@@ -1,11 +1,13 @@
 <section class="intro">
-	<div class="icon">👋</div>
+	<div class="icon" aria-hidden="true">👋</div>
 	<h1 class="fade-in">Hi, I'm <span class="name">Edgars</span></h1>
 	<p class="intro-text">
 		A passionate web developer and aspiring full-stack engineer focused on creating impactful
 		digital experiences.
 	</p>
-	<a class="button" href="/about">Learn More About Me</a>
+	<a class="button" href="/about" aria-label="Learn more about Edgars Cirulis"
+		>Learn More About Me</a
+	>
 </section>
 
 <style>
@@ -23,12 +25,12 @@
 		animation: popIn 0.6s ease-out forwards;
 	}
 
-	.intro h1 {
+	h1 {
 		font-size: 2.8rem;
 		font-weight: 700;
 		margin-bottom: 0.5rem;
-		animation: fadeIn 1s forwards;
 		color: #ffffff;
+		animation: fadeIn 1s forwards;
 	}
 
 	.name {
@@ -38,7 +40,6 @@
 	.intro-text {
 		font-size: 1.3rem;
 		color: #cccccc;
-		margin-bottom: 2rem;
 		max-width: 600px;
 		line-height: 1.6;
 		margin: 0 auto 2rem;
@@ -52,11 +53,11 @@
 		border-radius: 8px;
 		font-weight: 600;
 		text-decoration: none;
+		font-size: 1rem;
 		transition:
 			background-color 0.3s ease,
 			color 0.3s ease,
 			transform 0.2s ease;
-		font-size: 1rem;
 	}
 
 	.button:hover {
